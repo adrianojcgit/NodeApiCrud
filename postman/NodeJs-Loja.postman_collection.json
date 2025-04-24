@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "bcc13790-74d4-4fb9-8013-d29b32e9f152",
+		"name": "NodeJs-Loja",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1998846"
+	},
+	"item": [
+		{
+			"name": "Criar usuário",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Adriano\",\r\n    \"email\": \"adrianojcordeiro@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
